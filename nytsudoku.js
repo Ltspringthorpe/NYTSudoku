@@ -1,8 +1,10 @@
 /**
-    Highlight Function:
-    Adds even listeners for click and keyup to determine currently selected square.
-    If the selected square is filled in, highlight all other filled in squares
-    of the same value.
+ NEW YORK TIMES
+ --------------
+ Highlight Function:
+ Adds even listeners for click and keyup to determine currently selected square.
+ If the selected square is filled in, highlight all other filled in squares
+ of the same value.
  */
 function highlight(e) {
     if (e.key && e.key === '/') return;
@@ -35,10 +37,12 @@ document.addEventListener('keyup', highlight);
 
 
 /**
-    Check Candidates Function:
-    Adds a listener for the forward slash key being pressed.
-    Checks each square that has candidates in it. If a square only has
-    one candidate remaining, fill in the square with that value.
+ NEW YORK TIMES
+ --------------
+ Check Candidates Function:
+ Adds a listener for the forward slash key being pressed.
+ Checks each square that has candidates in it. If a square only has
+ one candidate remaining, fill in the square with that value.
  */
 async function checkCandidates(e) {
     if (e.key !== '/') return;
