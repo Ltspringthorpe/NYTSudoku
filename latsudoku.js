@@ -7,7 +7,7 @@
  one candidate remaining, fill in the square with that value.
  */
 async function checkCandidates(e) {
-    if (e.key !== '/') return;
+    if (e.key !== '+' && e.key !== '=') return;
     var foundEmpties = false;
 
     // Find all squares that have candidates in them

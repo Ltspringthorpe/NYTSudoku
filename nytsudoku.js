@@ -7,7 +7,7 @@
  of the same value.
  */
 function highlight(e) {
-    if (e.key && e.key === '/') return;
+    if (e.key && (e.key === '+' || e.key === '=')) return;
 
     // Get the currently selected number
     if (e.target.ariaLabel) {
@@ -45,7 +45,7 @@ document.addEventListener('keyup', highlight);
  one candidate remaining, fill in the square with that value.
  */
 async function checkCandidates(e) {
-    if (e.key !== '/') return;
+    if (e.key !== '+' && e.key !== '=') return;
     var foundEmpties = false;
 
     // Find all squares that don't have values
