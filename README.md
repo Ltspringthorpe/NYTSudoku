@@ -31,4 +31,4 @@ for LA Times) and paste it into the console. Hit enter. Play the puzzle like nor
 
 [https://www.latimes.com/games/sudoku](https://www.latimes.com/games/sudoku)<br>
 (You must select a puzzle before pasting the script **AND** make sure the dev panel is focused inside the game's iframe.
-The script will produce an error if the inspector is focused outside the iframe due to CORS.)
+Due to CORS, the script will produce an error if the inspector is focused outside the iframe.)
