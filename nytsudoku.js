@@ -40,7 +40,7 @@ document.addEventListener('keyup', highlight);
  NEW YORK TIMES
  --------------
  Check Candidates Function:
- Adds a listener for the forward slash key being pressed.
+ Adds a listener for the `+` key or the `=` key being pressed.
  Checks each square that has candidates in it. If a square only has
  one candidate remaining, fill in the square with that value.
  */
