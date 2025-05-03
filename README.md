@@ -22,7 +22,8 @@ single candidates.
 
 Open the page's console. (If you don't know how to access a page's console, you probably shouldn't be copying and
 pasting strange scripts from the internet.) Copy the appropriate script (`nytsudoku.js` for NYT and `latsudoku.js`
-for LA Times) and paste it into the console. Hit enter. Play the puzzle like normal. Use `+` or `=` to autofill squares.
+for LA Times) and paste it into the console. Press enter. In order for the script to run, the candidates must be visible
+(either auto-candidate mode or manual-candidate mode is fine). Use `+` or `=` to autofill squares.
 
 #### Links
 

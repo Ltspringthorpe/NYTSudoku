@@ -38,7 +38,7 @@ function simulateClick(evtType, elem) {
     var evt = new MouseEvent(evtType, {
         bubbles: true,
         cancelable: true,
-        view: window
+        view: window,
     });
 
     elem.dispatchEvent(evt);
