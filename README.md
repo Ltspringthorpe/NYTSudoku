@@ -28,7 +28,6 @@ for LA Times) and paste it into the console. Press enter. In order for the scrip
 #### Links
 
 [https://www.nytimes.com/puzzles/sudoku](https://www.nytimes.com/puzzles/sudoku)<br>
-(You must select a puzzle before pasting the script.)
 
 [https://www.latimes.com/games/sudoku](https://www.latimes.com/games/sudoku)<br>
 (You must select a puzzle before pasting the script **AND** make sure the dev panel is focused inside the game's iframe.

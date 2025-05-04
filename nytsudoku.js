@@ -8,7 +8,7 @@
  */
 
 function init() {
-    return 'Success. Your game is ready to play.';
+    return 'SUCCESS: Your game is ready to play.';
 }
 
 async function checkCandidates(e) {
