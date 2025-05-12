@@ -46,7 +46,7 @@ async function checkCandidates(e) {
             }
             // Select the square with a simulated click
             await simulateClick('mousedown', candidates[i].parentElement);
-            // Give it value with a simulated keypress
+            // Give it value with a simulated click
             await simulateClick('mousedown', document.querySelector('.key.key-2x[data-char="' + answer + '"] .key-tap-area'));
 
             // If no empties are being filled, abort the script.

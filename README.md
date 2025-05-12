@@ -25,6 +25,8 @@ pasting strange scripts from the internet.) Copy the appropriate script (`nytsud
 for LA Times) and paste it into the console. Press enter. In order for the script to run, the candidates must be visible
 (either auto-candidate mode or manual-candidate mode is fine). Use `+` or `=` to autofill squares.
 
+Update: I've created a new script called `universal-sudoku.js` that should work on both NYT and LA Times sudoku pages. Script is in beta.
+
 #### Links
 
 [https://www.nytimes.com/puzzles/sudoku](https://www.nytimes.com/puzzles/sudoku)<br>
