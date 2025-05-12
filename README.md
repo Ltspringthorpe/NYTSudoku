@@ -14,7 +14,7 @@ single candidates.
 
 Adds highlighting to the New York Times sudoku puzzles.
 When you select a square with a number in it, all the other squares in the grid with that number are highlighted.
-This is a feature that exists in the LA Times sudoku puzzles, but ~~is~~ was amiss in NYT.
+This is a feature that exists in the LA Times sudoku puzzles, but <strike>&nbsp;is&nbsp;</strike> was amiss in NYT.
 
 Update: About two weeks after I wrote this script and uploaded it to Github, NYT added their own highlight feature. Go figure.
 So I moved the highlighting function into a separate file. If you still want to access it, you can find it in `nytsudoku-deprecated.js`.
