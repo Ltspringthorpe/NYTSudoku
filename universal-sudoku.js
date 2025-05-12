@@ -97,7 +97,7 @@ async function checkCandidates(e, firstrun = true) {
 
             // If no empties are being filled, abort the script.
             if (numCandidates === document.querySelectorAll(candidateQueryStr).length) {
-                return alert('ERROR. Something on your computer is blocking simulated keypresses. Aborting script.');
+                return alert('ERROR. Something on your computer is blocking simulated mouse clicks. Aborting script.');
             }
         }
     };
