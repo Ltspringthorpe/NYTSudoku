@@ -5,8 +5,8 @@
  one candidate remaining, fill in the square with that value.
  */
 
-function init() {
-    return 'SUCCESS: Your game is ready to play.';
+function init(type) {
+    return 'SUCCESS: ' + type + ' puzzle detected. Your game is ready to play.';
 }
 
 function error() {
@@ -121,8 +121,8 @@ if (!laTimes && !nyTimes) {
     error();
 } else if (laTimes) {
     document.querySelector(laGridQueryStr).addEventListener('keydown', checkCandidates);
-    init();
+    init('LA Times');
 } else if (nyTimes) {
     document.addEventListener('keydown', checkCandidates);
-    init();
+    init('NYT');
 }
